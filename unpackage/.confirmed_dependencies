@@ -1,0 +1,21 @@
+{
+	"index.html": {
+		"resources": [
+			"src/home.html"
+		],
+		"refer": [
+			"src/home.html"
+		]
+	},
+	"src/home.html": {
+		"refer": [
+			"src/home01/city.html",
+			"src/home01/fx.html"
+		]
+	},
+	"src/home01/fx.html": {
+		"refer": [
+			"src/home.html"
+		]
+	}
+}
