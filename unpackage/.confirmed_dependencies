@@ -4,18 +4,37 @@
 			"src/home.html"
 		],
 		"refer": [
-			"src/home.html"
+			"src/home.html",
+			"src/home01/fx.html",
+			"src/map.html",
+			"src/finance.html",
+			"src/customer.html"
 		]
 	},
 	"src/home.html": {
 		"refer": [
 			"src/home01/city.html",
-			"src/home01/fx.html"
+			"src/home01/fx.html",
+			"src/home01/xy01.html",
+			"src/home01/card.html"
 		]
 	},
 	"src/home01/fx.html": {
 		"refer": [
-			"src/home.html"
+			"src/home.html",
+			"index.html"
+		]
+	},
+	"src/home01/city.html": {
+		"refer": [
+			"src/home.html",
+			"index.html"
+		]
+	},
+	"src/home01/xy01.html": {
+		"refer": [
+			"src/home.html",
+			"index.html"
 		]
 	}
 }

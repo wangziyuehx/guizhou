@@ -1,0 +1,143 @@
+.card{
+	width: 100%;
+	height: 170px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.card>img{
+	border-radius: 10px;
+	box-shadow:1px 4px 4px rgba(24,43,43,0.3)
+}
+/*卡号开始*/
+.card_num{
+	width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+	margin-top: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border-bottom: 1px solid #EFEFF4;
+}
+.card_num>div{
+	width:90%;
+	height: 30px;
+/*	background: orange;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    
+}
+.card_num>div>div{
+	width: 20%;
+	height: 30px;
+	/*background: pink;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pack{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pack>div{
+	width: 90%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.pack_left{
+	width: 50%;
+	height: 80px;
+}
+.pack_left>div{
+	width: 80%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pack_left>div>p{
+	width: 50%;
+	height: 50px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.pack_left>div>p>span:nth-child(1){
+	color: #f75d5d;
+}
+
+
+.pack_right{
+	width: 49%;
+	height: 80px;
+	border-left: 1px solid #EEEEEE;
+}
+.pack_right>div{
+	width: 80%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 10px;
+}
+.pack_right>div>p{
+	width: 50%;
+	height: 50px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.pack_right>div>p>span:nth-child(1){
+	color: #f75d5d;
+}
+/*切换卡片部分开始*/
+.qie{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1979b3;
+}
+/*底部开始*/
+.foot{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	bottom: 10px;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot>div{
+	width: 70%;
+	height: 80px;
+}
+.foot>div>p:nth-child(1){
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #6b97f7;
+}
+.foot>div>p:nth-child(2){
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	color: #808080;
+}
+/*底部结束*/

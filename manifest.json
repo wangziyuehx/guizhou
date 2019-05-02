@@ -132,21 +132,45 @@
 				"resources": [
 					"src/home.html"
 				],
-				"refer": [],
+				"refer": [
+					"src/home01/fx.html",
+					"src/map.html",
+					"src/finance.html",
+					"src/customer.html"
+				],
 				"priority": 0
 			},
 			"src/home.html": {
 				"resources": [],
 				"refer": [
 					"src/home01/city.html",
-					"src/home01/fx.html"
+					"src/home01/fx.html",
+					"src/home01/xy01.html",
+					"src/home01/card.html"
 				],
 				"priority": 0
 			},
 			"src/home01/fx.html": {
 				"resources": [],
 				"refer": [
-					"src/home.html"
+					"src/home.html",
+					"index.html"
+				],
+				"priority": 0
+			},
+			"src/home01/city.html": {
+				"resources": [],
+				"refer": [
+					"src/home.html",
+					"index.html"
+				],
+				"priority": 0
+			},
+			"src/home01/xy01.html": {
+				"resources": [],
+				"refer": [
+					"src/home.html",
+					"index.html"
 				],
 				"priority": 0
 			}

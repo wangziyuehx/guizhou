@@ -1,0 +1,292 @@
+/*信用卡办理部分开始*/
+.card{
+
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+}
+.card>p{
+	
+	width:25%;
+	height: 120px;
+	border: 1px solid #EFEFF4;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+.card>p>img{
+	margin-top: 20px;
+}
+/*信用卡办理部分结束*/
+/*数字一百部分开始*/
+.num{
+	width: 100%;
+	height: 450px;
+	margin-top: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.num>div{
+	width: 90%;
+	height: 430px;
+}
+/*数字一百部分结束*/
+/*乾贷网理财部分开始*/
+.qian{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.qian>div{
+	width: 90%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.qian_l{
+	width: 66%;
+	height: 80px;
+}
+.qian_l>p:nth-child(1){
+	width: 100%;
+	height: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.qian_l>p:nth-child(1)>span{
+	margin-left: 10px;
+}
+.qian_l>p:nth-child(2){
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+}
+.qian_l>p:nth-child(2)>span{
+	color: #ff2d3b;
+}
+.qian_l>p:nth-child(3){
+	width: 100%;
+	height: 20px;
+	font-size: 10px;
+	color: #b9b9b9;
+}
+.qian_l>p:nth-child(3)>span{
+	
+	color: #ae6768;
+}
+.qian_r{
+	width: 30%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.qian_r>p{
+	width: 90%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+.qian_r>p>span:nth-child(1){
+	font-size: 28px;
+	color: #e90f20;
+}
+.qian_r>p>span:nth-child(2){
+	font-size: 12px;
+	color: #989898;
+}
+/*乾贷网理财部分结束*/
+/*信用卡部分开始*/
+.card01{
+	width: 100%;
+	height: 130px;
+	background: #FFFFFF;
+	margin-top:20px;
+}
+.card01>div{
+	width: 100%;
+	height: 30px;
+	/*background:red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #EFEFF4;
+}
+.card01>div>p{
+	width: 20%;
+	height: 20px;
+	/*background:orange;*/
+	margin-top: 10px;
+    margin-left: 10px;
+    border-left: 5px solid #5b96f9;
+    padding-left: 10px;
+}
+.card01>ul{
+	width: 100%;
+	height: 100px;
+	/*background:orange;*/
+	list-style: none;
+	display: flex;
+	margin-top: 0px;
+	justify-content: space-around;
+	align-items: center;
+}
+.card01>ul>li{
+	width: 25%;
+	height: 100px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/*信用卡部分结束*/
+/*理财超市部分开始*/
+.shop{
+	width: 100%;
+	height: 290px;
+	background: #FFFFFF;
+	margin-top:20px;
+}
+.shop>div{
+	width: 100%;
+	height: 30px;
+	/*background:red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #EFEFF4;
+}
+.shop>div>p{
+	width: 20%;
+	height: 20px;
+	/*background:orange;*/
+	margin-top: 10px;
+    margin-left: 10px;
+    border-left: 5px solid #5b96f9;
+    padding-left: 10px;
+}
+.shop>ul{
+	width: 100%;
+	height: 100px;
+	/*background:orange;*/
+	list-style: none;
+	display: flex;
+	margin-top: 0px;
+	justify-content: space-around;
+	align-items: center;
+}
+.shop>ul>li{
+	width: 25%;
+	height: 100px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/*理财超市部分结束*/
+/*融资部分开始*/
+.financing{
+	width: 100%;
+	height: 220px;
+	background: #FFFFFF;
+	margin-top:20px;
+}
+.financing>div{
+	width: 100%;
+	height: 30px;
+	/*background:red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #EFEFF4;
+}
+.financing>div>p{
+	width: 20%;
+	height: 20px;
+	/*background:orange;*/
+	margin-top: 10px;
+    margin-left: 10px;
+    border-left: 5px solid #5b96f9;
+    padding-left: 10px;
+}
+.financing>ul{
+	width: 100%;
+	height: 100px;
+	/*background:orange;*/
+	list-style: none;
+	display: flex;
+	margin-top: 0px;
+	justify-content: space-around;
+	align-items: center;
+}
+.financing>ul>li{
+	width: 25%;
+	height: 100px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/*融资部分结束*/
+/*其他部分开始*/
+.other{
+	width: 100%;
+	height: 130px;
+	background: #FFFFFF;
+	margin-top:20px;
+}
+.other>div{
+	width: 100%;
+	height: 30px;
+	/*background:red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #EFEFF4;
+}
+.other>div>p{
+	width: 20%;
+	height: 20px;
+	/*background:orange;*/
+	margin-top: 10px;
+    margin-left: 10px;
+    border-left: 5px solid #5b96f9;
+    padding-left: 10px;
+}
+.other>ul{
+	width: 100%;
+	height: 100px;
+	/*background:orange;*/
+	list-style: none;
+	display: flex;
+	margin-top: 0px;
+	justify-content: space-around;
+	align-items: center;
+}
+.other>ul>li{
+	width: 25%;
+	height: 100px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/*其他部分结束*/
+
