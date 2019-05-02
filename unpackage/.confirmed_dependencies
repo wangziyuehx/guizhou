@@ -36,5 +36,28 @@
 			"src/home.html",
 			"index.html"
 		]
+	},
+	"src/customer.html": {
+		"refer": [
+			"login.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"index.html",
+			"src/customer.html",
+			"reg.html",
+			"forget_password.html"
+		]
+	},
+	"reg.html": {
+		"refer": [
+			"login.html"
+		]
+	},
+	"forget_password.html": {
+		"refer": [
+			"login.html"
+		]
 	}
 }

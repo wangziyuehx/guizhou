@@ -18,17 +18,105 @@
                    <!--登陆背景部分开始-->
                    <div class="banner">
                    	   <div class="set">
-                   	   	dd
+                   	   	<img src="../img/set.png"/>
+                   	   	<img src="../img/xx.png"/>
                    	   </div>
                    	   <div class="pro01">
-                   	   	dd
+                   	   	<div>
+                   	   		<img src="../img/login.png" />
+                   	   	</div>
+                   	   	<button type="button" class="mui-btn mui-btn-success">
+                   	   		<a href="../login.html">登陆</a>
+                   	   	</button>
+                   	   	
                    	   </div>
                    </div>
                    <!--登陆背景部分结束-->
+                  <!--我的卡包部分开始-->
+                  <div class="my">
+                  	<p><img src="../img/kb.png" width="40px"/>我的卡包</p>
+                  	<div>
+                  		<div>
+                  			<p>
+                  				<span>0分</span>
+                  				<span>我的积分</span>
+                  			</p>
+                  			<p>
+                  				<span>0张</span>
+                  				<span>已开发银行</span>
+                  			</p>
+                  			<p style="border: none;">
+                  				<span>0张</span>
+                  				<span>已绑定银行</span>
+                  			</p>
+                  		</div>
+                  	</div>
+                  </div>
+                  <!--我的卡包部分结束-->
+                  <!--我的信用部分开始-->
+                  <div class="my_xy">
+                  	<ul class="mui-table-view">
+					    <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/my01.png" width="30px"/>
+					        	<span>我的信用</span>
+					        </p>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/fuwu.png" width="30px"/>
+					        	<span>客服吧</span>
+					        </p>
+					    </li>
+					   <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/my02.png" width="30px"/>
+					        	<span>我的消费</span>
+					        </p>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/my03.png" width="30px"/>
+					        	<span>联系客服</span>
+					        </p>
+					    </li>
+					    
+					</ul>
+                  </div>
+                  <!--我的信用部分结束-->
+                  <!--在线咨询部分开始-->
+                  <div class="my_xy" style="margin-top: 15px;">
+                  	<ul class="mui-table-view">
+					    <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/my05.png" width="30px"/>
+					        	<span>在线咨询</span>
+					        </p>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/my06.png" width="30px"/>
+					        	<span>邀请好友</span>
+					        </p>
+					    </li>
+					   <li class="mui-table-view-cell">
+					        <p class="mui-navigate-right" style="display: flex;justify-content: flex-start;align-items: center;">
+					        	<img src="../img/my07.png" width="30px"/>
+					        	<span>关于我们</span>
+					        </p>
+					    </li>
+
+					</ul>
+                  </div>
+                  <!--在线咨询部分结束-->
                </div>
            </div>
            <script type="text/javascript" charset="utf-8">
 		   mui('#customer').scroll(); 
+		    mui('.mui-bar-tab').on('tap','a',function(){  
+                console.log(this.getAttribute('href'));  
+                location.href = this.getAttribute('href');  
+            })
 
         </script>
 	</body>

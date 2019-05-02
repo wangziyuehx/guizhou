@@ -173,6 +173,37 @@
 					"index.html"
 				],
 				"priority": 0
+			},
+			"src/customer.html": {
+				"resources": [],
+				"refer": [
+					"login.html"
+				],
+				"priority": 0
+			},
+			"login.html": {
+				"resources": [],
+				"refer": [
+					"index.html",
+					"src/customer.html",
+					"reg.html",
+					"forget_password.html"
+				],
+				"priority": 0
+			},
+			"reg.html": {
+				"resources": [],
+				"refer": [
+					"login.html"
+				],
+				"priority": 0
+			},
+			"forget_password.html": {
+				"resources": [],
+				"refer": [
+					"login.html"
+				],
+				"priority": 0
 			}
 		},
 		"idle": {
