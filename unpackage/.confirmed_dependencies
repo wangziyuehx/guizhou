@@ -53,11 +53,17 @@
 	"reg.html": {
 		"refer": [
 			"login.html"
+		],
+		"resources": [
+			"css/style.css"
 		]
 	},
 	"forget_password.html": {
 		"refer": [
 			"login.html"
+		],
+		"resources": [
+			"css/style.css"
 		]
 	}
 }

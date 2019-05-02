@@ -192,14 +192,18 @@
 				"priority": 0
 			},
 			"reg.html": {
-				"resources": [],
+				"resources": [
+					"css/style.css"
+				],
 				"refer": [
 					"login.html"
 				],
 				"priority": 0
 			},
 			"forget_password.html": {
-				"resources": [],
+				"resources": [
+					"css/style.css"
+				],
 				"refer": [
 					"login.html"
 				],

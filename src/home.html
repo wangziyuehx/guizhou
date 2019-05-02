@@ -8,6 +8,7 @@
 		<link href="../css/mui.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="../css/home.css"/>
 		<script src="../js/mui.min.js"></script>
+		<script src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript">
 			mui.init()
 		</script>
@@ -107,47 +108,144 @@
                 		<li>生活·缴费</li>
                 	</ul>
                 	<div>
-                		<div>
-                			<ul style="margin-top: -5px;" class="a" htmlName="./home01/card.html">
-                				<li>
-                					<img src="../img/tab01.jpg" width="50%"/>
-                					<p>公交云卡</p>
-                				</li>
-                				<li>
-                					<img src="../img/tab02.jpg" width="50%"/>
-                					<p>充值</p>
-                				</li>
-                				<li>
-                					<img src="../img/tab03.jpg" width="50%"/>
-                					<p>理财网</p>
-                				</li>
-                				<li>
-                					<img src="../img/tab04.jpg" width="50%"/>
-                					<p>金筑理财</p>
-                				</li>
-                			</ul>
-                			<ul>
-                				<li>
-                					<img src="../img/tab05.jpg" width="50%"/>
-                					<p>卡办理</p>
-                				</li>
-                				<li>
-                					<img src="../img/tab06.jpg" width="50%"/>
-                					<p>驾校报考</p>
-                				</li>
-                				<li>
-                					<img src="../img/tab07.jpg" width="50%"/>
-                					<p>教育培训</p>
-                				</li>
-                				<li>
-                					<img src="../img/tab08.jpg" width="50%"/>
-                					<p>全部</p>
-                				</li>
-                			</ul>
-                		</div>
+                		
+                		<ul id="box">
+                			<!--第一个内容-->
+                			<li>
+	                			<ul class="a" htmlName="./home01/card.html">
+	                				<li>
+	                					<img src="../img/tab01.jpg" width="50%"/>
+	                					<p>公交云卡</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab02.jpg" width="50%"/>
+	                					<p>充值</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab03.jpg" width="50%"/>
+	                					<p>理财网</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab04.jpg" width="50%"/>
+	                					<p>金筑理财</p>
+	                				</li>
+	                			</ul>
+	                			<ul>
+	                				<li>
+	                					<img src="../img/tab05.jpg" width="50%"/>
+	                					<p>卡办理</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab06.jpg" width="50%"/>
+	                					<p>驾校报考</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab07.jpg" width="50%"/>
+	                					<p>教育培训</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab08.jpg" width="50%"/>
+	                					<p>全部</p>
+	                				</li>
+	                			</ul>
+                			</li>
+                			
+                			<!--第二个内容-->
+                			<li>
+	                			<ul>
+	                				<li>
+	                					<img src="../img/tb01.png" width="50%"/>
+	                					<p>公交云卡</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb02.png" width="50%"/>
+	                					<p>公交充值</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb03.png" width="50%"/>
+	                					<p>客车车票</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb04.png" width="50%"/>
+	                					<p>火车票</p>
+	                				</li>
+	                			</ul>
+	                			<ul>
+	                				<li>
+	                					<img src="../img/tb05.png" width="50%"/>
+	                					<p>汽车摇号</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/x02.jpg" width="50%"/>
+	                					<p>路线查询</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tab08.jpg" width="50%"/>
+	                					<p>教育培训</p>
+	                				</li>
+	                				<li>
+	                					
+	                				</li>
+	                			</ul>
+                			</li>
+                			
+                			<!--第三个内容-->
+                			<li>
+	                			<ul>
+	                				<li>
+	                					<img src="../img/tb06.png" width="50%"/>
+	                					<p>社保缴费</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb07.png" width="50%"/>
+	                					<p>预约挂号</p>
+	                				</li>
+	                				<li>
+	                					
+	                				</li>
+	                				<li>
+	                					
+	                				</li>
+	                			</ul>
+	                			
+                			</li>
+                			
+                			<!--第四个内容-->
+                			<li>
+	                			<ul>
+	                				<li>
+	                					<img src="../img/tb08.png" width="50%"/>
+	                					<p>电费</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb09.png" width="50%"/>
+	                					<p>电视费</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb10.png" width="50%"/>
+	                					<p>水费</p>
+	                				</li>
+	                				<li>
+	                					<img src="../img/tb11.png" width="50%"/>
+	                					<p>燃气费</p>
+	                				</li>
+	                			</ul>
+	        
+                			</li>
+                		</ul>
                 	</div>
                 	
                 </div>
+                <!--切换的方法-->
+                <script type="text/javascript">
+                	$(function(){
+						//	获取tab标题
+						$('#tab_title>li').click(function(){
+							$('#box>li').eq($(this).index()).show().siblings('li').hide();
+						})
+						
+						})
+                </script>
                 <!--tab切换部分结束-->
                 <!--消费休闲部分开始-->
                 <div class="consumption">
