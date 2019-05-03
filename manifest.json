@@ -26,7 +26,7 @@
         
         "Events": {
             "description": "应用扩展事件"
-        }
+        },"OAuth":{}
 	},
 	"plus": {
 		"splashscreen": {
@@ -202,6 +202,13 @@
 				"priority": 0
 			},
 			"src/home01/town.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			},
+			"coming.html": {
 				"resources": [],
 				"refer": [
 					"index.html"

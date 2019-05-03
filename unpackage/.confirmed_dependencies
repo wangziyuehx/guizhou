@@ -73,5 +73,10 @@
     "refer": [
       "index.html"
     ]
+  },
+  "coming.html": {
+    "refer": [
+      "index.html"
+    ]
   }
 }
