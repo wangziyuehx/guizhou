@@ -1,77 +1,77 @@
 {
-	"index.html": {
-		"resources": [
-			"src/home.html"
-		],
-		"refer": [
-			"src/home.html",
-			"src/home01/fx.html",
-			"src/map.html",
-			"src/finance.html",
-			"src/customer.html"
-		]
-	},
-	"src/home.html": {
-		"refer": [
-			"src/home01/city.html",
-			"src/home01/fx.html",
-			"src/home01/xy01.html",
-			"src/home01/card.html",
-			"src/map.html",
-			"src/home01/route.html",
-			"src/home01/town.html"
-		]
-	},
-	"src/home01/fx.html": {
-		"refer": [
-			"src/home.html",
-			"index.html"
-		]
-	},
-	"src/home01/city.html": {
-		"refer": [
-			"src/home.html",
-			"index.html"
-		]
-	},
-	"src/home01/xy01.html": {
-		"refer": [
-			"src/home.html",
-			"index.html"
-		]
-	},
-	"src/customer.html": {
-		"refer": [
-			"login.html"
-		]
-	},
-	"login.html": {
-		"refer": [
-			"index.html",
-			"src/customer.html",
-			"reg.html",
-			"forget_password.html"
-		]
-	},
-	"reg.html": {
-		"refer": [
-			"login.html"
-		],
-		"resources": [
-			"css/style.css"
-		]
-	},
-	"forget_password.html": {
-		"refer": [
-			"login.html"
-		],
-		"resources": [
-			"css/style.css"
-		]
-	},
-	"src/home01/town.html": {
-		"refer": [
-			"index.html"
-		]
-	}
+  "index.html": {
+    "resources": [
+      "src/home.html"
+    ],
+    "refer": [
+      "src/home.html",
+      "src/home01/fx.html",
+      "src/map.html",
+      "src/finance.html",
+      "src/customer.html"
+    ]
+  },
+  "src/home.html": {
+    "refer": [
+      "src/home01/city.html",
+      "src/home01/fx.html",
+      "src/home01/xy01.html",
+      "src/home01/card.html",
+      "src/map.html",
+      "src/home01/route.html",
+      "src/home01/town.html"
+    ]
+  },
+  "src/home01/fx.html": {
+    "refer": [
+      "src/home.html",
+      "index.html"
+    ]
+  },
+  "src/home01/city.html": {
+    "refer": [
+      "src/home.html",
+      "index.html"
+    ]
+  },
+  "src/home01/xy01.html": {
+    "refer": [
+      "src/home.html",
+      "index.html"
+    ]
+  },
+  "src/customer.html": {
+    "refer": [
+      "login.html"
+    ]
+  },
+  "login.html": {
+    "refer": [
+      "index.html",
+      "src/customer.html",
+      "reg.html",
+      "forget_password.html"
+    ]
+  },
+  "reg.html": {
+    "refer": [
+      "login.html"
+    ],
+    "resources": [
+      "css/style.css"
+    ]
+  },
+  "forget_password.html": {
+    "refer": [
+      "login.html"
+    ],
+    "resources": [
+      "css/style.css"
+    ]
+  },
+  "src/home01/town.html": {
+    "refer": [
+      "index.html"
+    ]
+  }
 }
