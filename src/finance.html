@@ -20,9 +20,27 @@
           </header>
           <div class="mui-scroll-wrapper" id="finance">
               <div class="mui-scroll">
+              	<!--蒙板-->
+              	<div class="mui-backdrop" id="meng">
+              		<div class="m_pro">
+              			<p>提示</p>
+              			<p>你将跳转第三方平台继续操作，后续服务由第三方平台负责</p>
+              			<p>
+              				<b id="dot"></b><span>以后不在提醒</span>
+              			</p>
+              			<div>
+              				<button type="button" class="mui-btn mui-btn-success">继续进入</button>
+              				<button type="button" class="mui-btn mui-btn-grey" id="back02">&nbsp;&nbsp;&nbsp;退出&nbsp;&nbsp;&nbsp; </button>
+              			</div>
+              		</div>
+              	</div>
+              	<script>
+              		
+					
+              	</script>
                  <!--内容部分开始-->
                  <!--信用卡办理部分开始-->
-                  <div class="card">
+                  <div class="card" id="dian">
                   	<p>
                   		<img src="../img/tab05.jpg" width="50%"/>
                   		<span>信用卡办理</span>
@@ -43,7 +61,7 @@
                  <!--信用卡办理部分结束-->
                  <!--各办理业务开始-->
                  <div class="num">
-                 	<div>
+                 	<div id="dian1">
                  		<!--乾贷网理财-->
                   		<div class="qian">
                   			<div>
@@ -139,7 +157,7 @@
                  <!--各办理业务结束-->
                  <!--信用卡部分开始-->
                  <!--信用-->
-			<div class="card01">
+			<div class="card01" id="dian2">
 				<div>
 					<p>信用</p>
 				</div>
@@ -165,7 +183,7 @@
 		
                  <!--信用卡部分结束-->
                  <!--理财超市部分开始-->
-	              <div class="shop">
+	              <div class="shop" id="dian3">
 					<div>
 						<p>理财超市</p>
 					</div>
@@ -216,7 +234,7 @@
 				 </div>
                  <!--理财超市部分结束-->
                  <!--融资贷款部分开始-->
-                 <div class="financing">
+                 <div class="financing" id="dian4">
 					<div>
 						<p>融资贷款</p>
 					</div>
@@ -261,7 +279,7 @@
 				 </div>
                  <!--融资贷款部分结束-->
                  <!--其他部分开始-->
-                 <div class="other">
+                 <div class="other" id="dian5">
 					<div>
 						<p>其他</p>
 					</div>
@@ -285,13 +303,50 @@
 
 				 </div>
                  <!--其他部分结束-->
+                 
+                
                  <!--内容部分结束-->
+                 	
+                 
+                
               </div>
           </div>
           
           <script type="text/javascript" charset="utf-8">
 		   mui('#finance').scroll(); 
-
+//		   获取点击按钮
+           var dian=document.getElementById('dian');
+           var dian1=document.getElementById('dian1');
+           var dian2=document.getElementById('dian2');
+           var dian3=document.getElementById('dian3');
+           var dian4=document.getElementById('dian4');
+           var dian5=document.getElementById('dian5');
+//         获取蒙板内容
+           var meng=document.getElementById('meng');
+//         获取退出按钮
+           var back=document.getElementById('back02');
+//         点击显示蒙板
+           dian5.onclick=dian4.onclick=dian3.onclick=dian2.onclick=dian1.onclick=dian.onclick=function(){
+           	meng.style.display='block';
+           }
+//         点击退出返回蒙板
+           back.onclick=function(){
+           	meng.style.display='none';
+           }
+           
+//         圆圈事件
+          var dot=document.getElementById('dot');
+          var clikNum=0;
+          dot.onclick=function(){
+          	dot.style.background='#FFFFFF';
+          	clikNum++;
+          	console.log(clikNum);
+          	if(clikNum%2==0){
+          		dot.style.background='#FFFFFF';
+          	}else{
+          		dot.style.background='#32c652';
+          	}
+          }
         </script>
 	</body>
 </html>

@@ -146,7 +146,8 @@
 					"src/home01/city.html",
 					"src/home01/fx.html",
 					"src/home01/xy01.html",
-					"src/home01/card.html"
+					"src/home01/card.html",
+					"src/map.html"
 				],
 				"priority": 0
 			},
