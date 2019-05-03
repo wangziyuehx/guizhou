@@ -1,0 +1,181 @@
+/*标题开始*/
+.top{
+	width: 100%;
+	height: 40px;
+	background: #3186ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #FFFFFF;
+	}
+/*换乘查询部分开始*/
+.change{
+	width: 100%;
+	height: 60px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.change>ul{
+	list-style: none;
+	width: 80%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.change>ul>li{
+	width: 145px;
+	height: 60px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.change>ul>li:hover{
+	width: 145px;
+	height: 55px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #3186ff;
+}
+.change>ul>li>p{
+	width: 138px;
+	height: 30px;
+	border-right: 2px solid #EFEFF4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.change>ul>li>p:hover{
+	width: 138px;
+	height: 30px;
+	border-right: 2px solid #EFEFF4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #398eff;
+}
+/*换乘查询部分结束*/
+/*贵阳市部分开始*/
+.guiyang{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	width: 90%;
+	height: 170px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.title>p{
+	width: 100%;
+	height: 20px;
+	padding-left: 20px;
+	border-bottom: 1px solid #cecfce;
+}
+.title>p>span:nth-child(2){
+	color: #4a92ff;
+	margin-left: 10px;
+}
+.go{
+	width: 90%;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.go>div{
+	width: 60%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.go>div>p{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 1px solid #EFEFF4;
+	padding-left: 10px;
+}
+.go>div>p>b{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #63b210;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.go>div>p:nth-child(2)>b{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #ff6518;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.title>button{
+	width: 90%;
+	height: 40px;
+	background: #4a92ff;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+/*贵阳市部分结束*/
+/*查看公交站开始*/
+.look{
+	width: 100%;
+	height:100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.look>div{
+	width: 90%;
+	height: 100px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*查看公交站结束*/
+/*底部开始*/
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer>p{
+	width: 55%;
+	height: 80px;
+	background: gray;
+	border: 1px solid #EFEBEF;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -112,8 +112,8 @@
                 		<ul id="box">
                 			<!--第一个内容-->
                 			<li>
-	                			<ul class="a" htmlName="./home01/card.html">
-	                				<li>
+	                			<ul>
+	                				<li class="a" htmlName="./home01/card.html">
 	                					<img src="../img/tab01.jpg" width="50%"/>
 	                					<p>公交云卡</p>
 	                				</li>
@@ -237,6 +237,7 @@
                 	
                 </div>
                 <!--切换的方法-->
+                
                 <script type="text/javascript">
                 	$(function(){
 						//	获取tab标题
@@ -247,7 +248,10 @@
 						})
                 	
 //              	滑动显示
-                    
+                   mui('#box').on("swipeleft",function(){
+					     console.log("你正在向左滑动");
+					    
+					});
 
                 </script>
                 <!--tab切换部分结束-->
@@ -265,7 +269,7 @@
                 			        <div class="mui-media-body">黔货精品</div>
                 			    </a>
                 			</li>
-                			<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+                			<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 a"  htmlName="home01/route.html">
                 			    <a href="#">
                 			        <img src="../img/x02.jpg" width="50%"/>
                 			        <div class="mui-media-body">路线查询</div>
