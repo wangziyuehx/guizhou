@@ -1,0 +1,334 @@
+/*顶部开始*/
+.top{
+	width: 100%;
+	height: 80px;
+	background: rgba(255,255,255,0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 500;
+}
+.top>div{
+	width: 90%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top>div>p:nth-child(2){
+	font-size: 25px;
+	margin-top: 5px;
+	color: #000000;
+}
+.top>div>p:nth-child(3){
+	font-size: 17px;
+	margin-top: 5px;
+}
+/*顶部结束*/
+/*轮播开始*/
+.swiper-container {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*轮播结束*/
+/*分享部分开始*/
+#share{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#share>div{
+	width: 90%;
+	height: 100px;
+	
+	
+}
+.share_top{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #EFEBEF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.share_top>div{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.share_top>div>p:nth-child(1){
+	width: 30%;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+.share_top>div>p:nth-child(3){
+	margin-top: 10px;
+}
+.share_top>div>b{
+	display: block;
+	width: 1px;
+	height: 30px;
+	background: #cecbce;
+}
+.share_bot{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.share_bot>p{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.share_bot>p>img{
+	margin-right: 10px;
+	
+}
+/*分享部分结束*/
+/*门票部分开始*/
+.ticket{
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+	display: flex;
+	border: 1px solid #FAFAFA;
+	justify-content: space-between;
+	align-items: center;
+}
+.ticket>li{
+	width: 181px;
+	border: 1px solid #EFEBEF;
+	height: 50px;
+	margin-left: -40px;
+	background: #efebef;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ticket>li:hover{
+	width: 181px;
+	border: 1px solid #EFEBEF;
+	height: 50px;
+	background: #FFFFFF;
+	border-bottom: 2px solid #00bee7;
+	margin-left: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ticket>li>span{
+	color: #ff0000;
+}
+/*门票部分结束*/
+/*内容开始*/
+.ticket_pro{
+	width: 100%;
+	height: 200px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ticket_pro>div{
+	width: 90%;
+	height: 180px;
+	display: flex;
+}
+.pro_left{
+	width: 50%;
+	height: 180px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.pro_left>p:nth-child(1){
+	font-size: 20px;
+    color: #000000;
+}
+.pro_left>p:nth-child(2){
+	font-size: 13px;
+}
+.pro_left>p:nth-child(2)>span:nth-child(1){
+	color: #ffdba5;
+}
+.pro_left>div{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.pro_left>div>p{
+	width: 80px;
+	height: 30px;
+	border: 1px solid #8cbade;
+	color: #8cbade;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+.pro_right{
+	width: 50%;
+	height: 180px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+}
+.pro_right>p:nth-child(1){
+	color: #ff8a63;
+	margin-left: 80px;
+}
+.pro_right>del{
+	color: #000000;
+	margin-left: 80px;
+}
+.pro_right>p:nth-child(3){
+	width: 80px;
+	height: 30px;
+	background: #ff6531;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	border-radius: 5px;
+	margin-left: 80px;
+}
+/*内容结束*/
+/*预定须知部分开始*/
+.reservations{
+	width: 100%;
+	height: 200px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center
+}
+.reservations>div{
+	width: 90%;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.reservations>div>p:nth-child(1){
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #EFEBEF;
+	font-size: 20px;
+	color: #000000;
+}
+.reservations>div>p:nth-child(2){
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #EFEBEF;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.reservations>div>p:nth-child(2)>span:nth-child(1){
+	color: #000000;
+	font-size: 20px;
+}
+.reservations>div>p:nth-child(2)>span:nth-child(2){
+	color: #cecfce;
+	font-size: 12px;
+}
+.reservations>div>p:nth-child(2)>span:nth-child(3){
+	color: #000000;
+	font-size: 20px;
+}
+.reservations>div>a{
+	color: #84c7f7;
+	font-size: 20px;
+}
+/*预定须知部分结束*/
+/*底部开始*/
+#foot{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+#foot>div{
+	width: 90%;
+	height: 50px;
+	
+	
+}
+.foot_top{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot_top>div{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.foot_top>div>p:nth-child(1){
+	width: 30%;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+.foot_top>div>p:nth-child(3){
+	margin-top: 10px;
+}
+.foot_top>div>b{
+	display: block;
+	width: 1px;
+	height: 30px;
+	background: #cecbce;
+}
+
+/*底部结束*/

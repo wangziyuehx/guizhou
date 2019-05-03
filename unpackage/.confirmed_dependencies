@@ -18,7 +18,8 @@
 			"src/home01/xy01.html",
 			"src/home01/card.html",
 			"src/map.html",
-			"src/home01/route.html"
+			"src/home01/route.html",
+			"src/home01/town.html"
 		]
 	},
 	"src/home01/fx.html": {
@@ -66,6 +67,11 @@
 		],
 		"resources": [
 			"css/style.css"
+		]
+	},
+	"src/home01/town.html": {
+		"refer": [
+			"index.html"
 		]
 	}
 }

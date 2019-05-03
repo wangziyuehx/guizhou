@@ -1,18 +1,164 @@
 <!doctype html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../../css/mui.min.css" rel="stylesheet" />
-	</head>
-
-	<body>
+		<link rel="stylesheet" type="text/css" href="../../css/town.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css"/>
 		<script src="../../js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui.init()
 		</script>
+	</head>
+
+	<body>
+		<div class="mui-scroll-wrapper" id="twon">
+		    <div class="mui-scroll">
+		        <!--头部开始-->
+		        <div class="top">
+		        	<div>
+		        		<a class="mui-icon mui-icon-back" style="color: #6b696b;"></a>
+		        		<p>青岩古镇景区</p>
+		        		<p>
+		        			<span class="mui-icon mui-icon-compose">订单</span>
+		        		</p>
+		        	</div>
+		        </div>
+		        <!--头部结束-->
+		        <!--轮播部分开始-->
+		        <div class="swiper-container">
+				    <div class="swiper-wrapper">
+					      <div class="swiper-slide">
+					      	    <img src="../../img/gu01.jpg" width="100%"/>
+					      </div>
+					      <div class="swiper-slide">
+					      		<img src="../../img/gu02.jpg" width="100%"/>
+					      </div>
+					      <div class="swiper-slide">
+					      		<img src="../../img/gu03.jpg" width="100%"/>
+					      </div>
+					      <div class="swiper-slide">
+					      		<img src="../../img/gu04.jpg" width="100%"/>
+					      </div>
+					      <div class="swiper-slide">
+					      		<img src="../../img/gu05.jpg" width="100%"/>
+					      </div>
+					      
+				    </div>
+				    <div class="swiper-pagination" style="color: #ffffff;"></div>
+			    </div>
+			    <!--轮播结束-->
+			    <!--分享部分开始-->
+			    <div id="share">
+			    	<div>
+			    		<div class="share_top">
+			    			<div>
+			    				<p><img src="../../img/share01.png" height="20px"/>分享</p>
+				    			<b></b>
+				    			<p>景点介绍</p>
+			    			</div>
+			    			
+			    		</div>
+			    		<div class="share_bot">
+			    			<p><img src="../../img/lo01.png" height="40px">贵阳花溪青岩古镇</p>
+			    		</div>
+			    	</div>
+			    </div>
+			    <!--分享部分结束-->
+			    <!--门票部分开始-->
+			    
+			    <ul class="ticket">
+		    		<li>门票<span>(0张)</span></li>
+		    		<li>停车场</li>
+			    </ul>
+			    <!--内容开始-->
+			    <div class="ticket_pro">
+			    	<div>
+			    		<div class="pro_left">
+			    			<p>青岩古镇套票</p>
+			    			<p><span>AAAA</span><span>已售221</span></p>
+			    			<div>
+			    				<p>官方</p>
+			    				<p>有条件退</p>
+			    			</div>
+			    			<p>预定须知></p>
+			    		</div>
+			    		<div class="pro_right">
+			    			<p>&yen;55</p>
+			    			<del>&yen;80</del>
+			    			<p>立即预定</p>
+			    		</div>
+			    	</div>
+			    </div>
+			    <!--内容结束-->
+			    <!--预定须知部分开始-->
+			    <div class="reservations">
+			    	<div>
+			    		<p>预定须知</p>
+			    		<p>
+				    		<span>开放时间</span>
+				    		<span>08：12-17：40</span>
+				    		<span>温馨提示</span>
+				    		<span>门票当天有效，出院再入院需要重新购买</span>
+			    		
+			    	    </p>
+			    	    <a>查看预定须知></a>
+			    	</div>
+			    	
+			    </div>
+			    <!--预定须知部分结束-->
+			    <!--门票部分结束-->
+			    <!--底部开始-->
+			    <div id="foot">
+			    	<div>
+			    		<div class="foot_top">
+			    			<div>
+			    				<p><img src="../../img/mp01.png" height="20px"/>门票（0）张</p>
+				    			<b></b>
+				    			<p><img src="../../img/mp02.png" height="20px"/>停车场</p>
+			    			</div>
+			    			
+			    		</div>
+			    		
+			    	</div>
+			    </div>
+			    <!--底部结束-->
+		    </div>
+		</div>
+		<script type="text/javascript" src="../../js/swiper.min.js" ></script>
+		 <script>
+		    var swiper = new Swiper('.swiper-container', {
+		      pagination: {
+		        el: '.swiper-pagination',
+		        type: 'fraction',
+		        //type 分页器样式类型，可选
+					  //‘bullets’  圆点（默认）
+						//‘fraction’  分式 
+						//‘progressbar’  进度条
+						//‘custom’ 自定义
+		      },
+		      autoplay: {
+			      //设置为true启动自动切换，并使用默认的切换设置。 默认false
+			        delay: 2500,
+			        //delay 自动切换的时间间隔，单位ms
+			        disableOnInteraction: false,
+			        //用户操作swiper之后，是否禁止autoplay。默认为true：停止。
+							//如果设置为false，用户操作swiper之后自动切换不会停止，每次都会重新启动autoplay。
+							//操作包括触碰，拖动，点击pagination等。
+			      },
+		      navigation: {
+		        nextEl: '.swiper-button-next',
+		        prevEl: '.swiper-button-prev',
+		      },
+		    });
+		  </script>
+		  
+		  <script type="text/javascript" charset="utf-8">
+		mui('#twon').scroll(); 
+
+        </script>
 	</body>
 
 </html>

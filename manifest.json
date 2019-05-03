@@ -148,7 +148,8 @@
 					"src/home01/xy01.html",
 					"src/home01/card.html",
 					"src/map.html",
-					"src/home01/route.html"
+					"src/home01/route.html",
+					"src/home01/town.html"
 				],
 				"priority": 0
 			},
@@ -208,6 +209,13 @@
 				],
 				"refer": [
 					"login.html"
+				],
+				"priority": 0
+			},
+			"src/home01/town.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
 				],
 				"priority": 0
 			}
